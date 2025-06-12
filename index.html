@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="calculadora.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Calculator</h1>
+    <h2>Ana Edition</h2>
+
+    <div id="resposta"></div>
+
+    <div class="buttons">
+      <input type="button" value="7" class="numero" />
+      <input type="button" value="8" class="numero" />
+      <input type="button" value="9" class="numero" />
+      <input type="button" value="/" class="operador" id="div" />
+      <input type="button" value="4" class="numero" />
+      <input type="button" value="5" class="numero" />
+      <input type="button" value="6" class="numero" />
+      <input type="button" value="*" class="operador" id="vezes" />
+      <input type="button" value="1" class="numero" />
+      <input type="button" value="2" class="numero" />
+      <input type="button" value="3" class="numero" />
+      <input type="button" value="-" class="operador" id="sub" />
+      <input type="button" value="0" class="numero zero" />
+      <input type="button" value="(" class="parenteses" id="abrePar" />
+      <input type="button" value=")" class="parenteses" id="fechaPar" />
+      <input type="button" value="+" class="operador" id="soma" />
+      <input type="button" value="C" class="limpar" id="clear" />
+      <input type="button" value="=" class="igual" id="igual" />
+    </div>
+  </div>
+
+  <script src="calculadora.js"></script>
+</body>
+</html>
